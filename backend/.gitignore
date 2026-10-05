@@ -1,0 +1,20 @@
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Secrets ---
+.env
+.env.local
+
+# --- Databases ---
+*.db
+*.sqlite3
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
